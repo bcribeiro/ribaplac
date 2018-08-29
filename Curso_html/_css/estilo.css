@@ -14,7 +14,7 @@ body{
      /* image style */
      figure.foto-legenda{
          position: relative;
-         border: 4px solid white;
+         border: 1px solid white;
          box-shadow: 1px 1px 4px black;
      }
      figure.foto-legenda img{
