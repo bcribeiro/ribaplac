@@ -30,7 +30,7 @@ body{
          color: white;
          width: 100%;
          height: 100%;
-         padding: 10px;
+         padding: 10px;ca
          box-sizing: border-box;
          transition: 1s;
      } 
@@ -38,3 +38,27 @@ body{
          opacity: 1;
      }
     
+/*formataão do Menu*/
+
+    nav#menu{
+        display: block;
+    }
+
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase; 
+        position: absolute;
+        top: -40px;
+        left: 100px;
+
+    }
+    nav#menu li{
+        display: inline-block;
+        background-color: darkgray;
+        padding: 10px;
+        margin: 22px;
+    }
+    nav#menu h1{
+        display: none;
+    }
+
